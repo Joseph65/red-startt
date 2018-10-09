@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body {
+	background-color: #da3b3b;
+	text-transform: lowercase;
+        margin: -150px -20px;
+   }
+
+.navbar {
+    overflow: hidden;
+    background-color: #da3b3b;
+    margin: 270px 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 30px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #da3b3b;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #da3b3b;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 1px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #da3b3b;
+    color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+#input1 {
+	background: transparent;
+	color: #ffffff;
+	border: none;
+        font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	height: 17px;
+	margin-top: 5px;
+	padding: 5px;
+	transition: .2s;
+	width: 100%; 
+	outline: none;
+	text-transform: lowercase;
+	transform: translate(9%, 800%);
+}
+
+#clock {
+	color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	transform: translate(13%, 440%);
+}
+
+#datebox {
+        font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	transform: translate(10%, -105%);
+	}
+
+</style>
+</head>
+<body>
+
+	 	<div id="clock">
+			<a> <div id="clockbox">21:43</div></a>
+			<a><div id="datebox">WED-13-DEC</div></a>
+		</div>
+
+		<form>
+			<input id="input1" autofocus="autofocus" \="" placeholder="Search..">
+		</form>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">social 
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.google.com/">google</a>
+      <a href="https://www.youtube.com/">youtube</a>
+      <a href="https://www.twitter.com/">twitter</a>
+      <a href="https://www.reddit.com/">reddit</a>
+      <a href="https://www.instagram.com/">instagram</a>
+      <a href="https://www.facebook.com/">facebook</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">music
+    </button>
+    <div class="dropdown-content">
+      <a href="https://music.youtube.com">youtubemusic</a>
+      <a href="https://play.google.com/music/listen">googleplay</a>
+      <a href="https://www.spotify.com">spotify</a>
+      <a href="https://www.soundcloud.com">soundcloud</a>
+      <a href="https://www.mixcloud.com">mixcloud</a>
+      <a href="https://www.bandcamp.com">bandcamp</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">movies
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.netflix.com">netflix</a>
+      <a href="https://play.google.com/store/movies">playmovies</a>
+      <a href="https://www.crackle.com">crackle</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">images
+    </button>
+    <div class="dropdown-content">
+      <a href="https://flickr.com">flickr</a>
+      <a href="https://imgur.com">imgur</a>
+      <a href="https://images.google.com/">google-img</a>
+      <a href="https://500px.com">500px</a>
+    </div>
+  </div>
+</div>
+
+<script src="Home_files/javascript.js"></script>
+
+</body>
+</html>
